@@ -2,7 +2,7 @@
 
 **LLM AtoZ** is a detailed repository designed to provide resources and guidance for mastering Large Language Models (LLMs). The repository offers code snippets, Jupyter notebooks, project examples, and industry best practices, catering to users ranging from beginners to advanced professionals. The materials cover prominent libraries, frameworks, and APIs within the natural language processing (NLP) field.
 
-This repository features libraries such as **Hugging Face Transformers**, **LangChain**, **LlamaIndex**, as well as `OpenAI`, `Cohere` `Gemini`. It is continuously updated to reflect the latest innovations and best practices in LLM development and deployment.
+This repository features libraries such as `Hugging Face Transformers`, `LangChain`, `LlamaIndex`, `Unstructured` as well as `OpenAI`, `Cohere` `Gemini`. It is continuously updated to reflect the latest innovations and best practices in LLM development and deployment.
 
 ## Contents 📚
 
@@ -32,8 +32,17 @@ The repository is organized for easy navigation, featuring a detailed breakdown 
 | **Chaining Prompts with ChatGPT** | Explores implementing complex tasks by chaining multiple prompts in ChatGPT, allowing for structured and sequential handling of multi-step tasks. | `ChatGPT`, `Chaining Prompts`, `Multi-Step Tasks`, `NLP` | [Notebook](notebook/process_inputs_chaining_prompts_chatgpt.ipynb) |
 | **Check Outputs in ChatGPT** | Details methods to verify ChatGPT outputs, including checking for potentially harmful content and ensuring factual accuracy based on provided product information. | `ChatGPT`, `Output Validation`, `Content Safety`, `Factual Accuracy` | [Notebook](notebook/check_outputs_chatgpt.ipynb) |
 | **Build an End-to-End System** | Combines a series of chained prompts to process user queries. Includes a function for collecting user and assistant messages over time and instructions for interacting with the chatbot. The system message contains detailed guidance for OrderBot's tasks. | `End-to-End System`, `Chained Prompts`, `Chatbot`, `OrderBot` | [Notebook](notebook/end_to_end_system.ipynb) |
-| **Evaluation Part I** | Focuses on evaluating LLM responses in cases where a single "right answer" exists, assessing accuracy and precision. | `LLM Evaluation`, `ChatGPT`, `Accuracy` | [Notebook](notebook/evaluation_part_I_chatgpt.ipynb) |
-| **Evaluation Part II in ChatGPT** | Covers evaluating ChatGPT responses in scenarios where multiple valid answers may exist, focusing on diversity, relevance, and coherence of responses. | `ChatGPT`, `LLM Evaluation`, `Multiple Answers`, `Response Quality` | [Notebook](notebook/evaluation_part_II_chatgpt.ipynb) |
+| **Evaluation in ChatGPT** | Covers evaluating LLM responses in two scenarios: (1) cases with a single right answer focusing on accuracy and precision, and (2) cases with multiple valid answers, emphasizing diversity, relevance, and coherence. | `LLM Evaluation`, `ChatGPT`, `Accuracy`, `Response Quality` | [Notebook 1](notebook/evaluation_part_I_chatgpt.ipynb), [Notebook 2](notebook/evaluation_part_II_chatgpt.ipynb) |
+| **Normalizing the Content using Unstructured** | Extracts and normalizes content from various document types, including PDFs, PowerPoints, Word documents, HTML files, tables, and images, to expand the information accessible to the LLM. Utilizes the Unstructured library for effective content handling. | `Unstructured`, `Content Extraction`, `Normalization`, `Document Processing` | [Notebook](preprocessing-unstructured-data/normalizing_content.ipynb) |
+| **Metadata Extraction and Chunking using Unstructured and ChromaDB** | Demonstrates the extraction of metadata and chunking of content using the Unstructured library and ChromaDB for efficient data handling and retrieval. | `Unstructured`, `ChromaDB`, `Metadata Extraction`, `Chunking` | [Notebook](preprocessing-unstructured-data/metadata_extraction_chunking.ipynb) |
+| **Preprocessing PDFs and Images using Unstructured** | Applies layout detection and vision transformers to preprocess PDFs and images, enhancing the extraction and normalization of content for further analysis. | `Unstructured`, `PDF Processing`, `Image Processing`, `Layout Detection` | [Notebook](preprocessing-unstructured-data/preprocessing_pdfs_images.ipynb) |
+| **Extracting Tables using Unstructured** | Focuses on techniques for document image analysis, including layout detection and vision transformers, to effectively extract tables from various document formats. | `Unstructured`, `Table Extraction`, `Document Analysis`, `Layout Detection` | [Notebook](preprocessing-unstructured-data/extracting_tables.ipynb) |
+| **RAG Bot using OpenAI, LangChain, ChromaDB, and Unstructured** | Builds a Retrieval-Augmented Generation (RAG) bot capable of ingesting various document types, including PDFs, PowerPoints, and Markdown files, leveraging the capabilities of OpenAI, LangChain, ChromaDB, and Unstructured. | `OpenAI`, `LangChain`, `ChromaDB`, `Unstructured`, `RAG` | [Notebook](preprocessing-unstructured-data/rag_bot.ipynb) |
+| **Large Language Models with Semantic Search** | Implements various techniques for enhancing search capabilities, including basic keyword search, enhancement with the rerank method for relevance ranking, dense retrieval using embeddings for improved semantic search results, and generating answers through LLM integration. | `Semantic Search`, `Keyword Search`, `Embeddings`, `ReRank`,`Cohore`,`weaviate` | [Keyword Search](semantic_search/keyword_search.ipynb), [Embeddings](semantic_search/embeddings.ipynb), [Dense Retrieval](semantic_search/dense_retrieval.ipynb), [ReRank](semantic_search/rerank.ipynb), [Generating Answers](semantic_search/generating_answers.ipynb) |
+
+
+
+
 
 
 The repository is frequently updated with new tutorials, use cases, and technical guides to ensure it remains a valuable resource for learning and implementing LLM technologies.
@@ -57,6 +66,7 @@ All submissions are subject to review to ensure they meet the high standards of 
 This repository is built on the foundational work of several leading organizations in AI and NLP. Special recognition goes to:
 - **DeepLearning.AI**
 - **Hugging Face**
+- **Nexusflow.ai**
 - **LangChain**
 - **OpenAI**
 - **Gemini**
