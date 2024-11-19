@@ -12,7 +12,7 @@ The repository is organized for easy navigation, featuring a detailed breakdown 
 |-----------------------|---------------------------------------|----------------------------------------------------|----------------------------|
 | **LangChain: Models, Prompts, and Output Parsers** | Covers the use of models, prompts, and output parsers in LangChain. Focuses on calling LLMs, providing prompts, and parsing responses. | `LangChain`, `LLMs`, `Prompt Engineering`, `Output Parsing` | [Notebook](notebook/langchain_models_prompts_parsers.ipynb) |
 | **LangChain: Memory** | Explores memory management for LLMs, including storing conversations and managing limited context space. Covers `ConversationBufferMemory`, `ConversationBufferWindowMemory`, `ConversationTokenBufferMemory`, and `ConversationSummaryMemory`. | `LangChain`, `LLMs`, `Memory Management` | [Notebook](notebook/langchain_memory.ipynb) |
-| **Chains in LangChain** | Focuses on creating sequences of operations using Chains in LangChain. Includes `LLMChain`, `Sequential Chains` (`SimpleSequentialChain`, `SequentialChain`), and `Router Chain`. | `LangChain`, `LLMChain`, `SequentialChain`, `Router Chain` | [Notebook](notebook/langchain_chains.ipynb) |
+| **LangChain: Chains** | Focuses on creating sequences of operations using Chains in LangChain. Includes `LLMChain`, `Sequential Chains` (`SimpleSequentialChain`, `SequentialChain`), and `Router Chain`. | `LangChain`, `LLMChain`, `SequentialChain`, `Router Chain` | [Notebook](notebook/langchain_chains.ipynb) |
 | **LangChain: Q&A over Documents** | Demonstrates how to apply LLMs to proprietary data for question-answering tasks based on specific use case requirements. | `LangChain`, `LLMs`, `Q&A`, `Document Processing` | [Notebook](notebook/langchain_qa_over_documents.ipynb) |
 | **LangChain: Evaluation** | Covers methods for evaluating LangChain applications, including example generation, manual evaluation and debugging, LLM-assisted evaluation, and the LangChain evaluation platform. | `LangChain`, `Evaluation`, `LLM`, `Debugging` | [Notebook](notebook/langchain_evaluation.ipynb) |
 | **LangChain: Agents** | Explores the development of LLMs as reasoning agents. Covers using built-in LangChain tools like DuckDuckGo Search and Wikipedia, as well as defining custom tools. | `LangChain`, `LLM`, `Agents`, `Custom Tools` | [Notebook](notebook/langchain_agents.ipynb) |
@@ -70,6 +70,7 @@ This repository is built on the foundational work of several leading organizatio
 - **LangChain**
 - **OpenAI**
 - **Gemini**
+- **Cohore**
 
 The tools and frameworks from these organizations have been instrumental in the creation of this repository.
 
