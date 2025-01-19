@@ -16,14 +16,14 @@ However, challenges abound:
 3. **Training & Utilizing Embedding Adapters 🔄:**  
    - Adding an adapter layer to reshape embeddings emphasizes elements most relevant to specific applications, enhancing retrieval performance.
 
-## Notebook List📚
+## Resources 📚
 
 | **Title**             | **Description**                                  | **Tecnology/Tools**                     | **Link**                   |
 |-----------------------|--------------------------------------------------|-----------------------------------------|----------------------------|
-| **Overview of Embeddings-Based Retrieval with ChromaDB** | Dive into the fundamentals of embeddings-based retrieval using ChromaDB. Explore how to store, query, and manage embeddings effectively, and build a simple Retrieval-Augmented Generation (RAG) system. | `ChromaDB`, `Embeddings`, `Retrieval-Augmented Generation (RAG)`, `OpenAI` | [Notebook](notebook/embeddings_based_retrieval_chromadb.ipynb) |
-| **Pitfalls of Retrieval: When Simple Vector Search Fails** | Explore common challenges and limitations of simple vector search in embeddings-based retrieval. Understand scenarios where vector search may fail. | `Vector Search`, `Embeddings`, `Retrieval Systems`, `ChromaDB` | [Notebook](notebook/pitfalls_of_retrieval_vector_search_fails.ipynb) |
-| **Query Expansion** | Enhance information retrieval by expanding user queries with related concepts and keywords using an LLM. Employ an LLM to suggest possible answers to queries and incorporate them into the query for improved retrieval performance. | `LLM`, `Information Retrieval`, `Query Expansion`, `Keyword Enrichment` | [Notebook](notebook/query_expansion_llm.ipynb) |
-| **Cross-Encoder Reranking** | Improve retrieval results by reranking them using a cross-encoder to select the most relevant results based on the query. | `Cross-Encoder`, `Reranking`, `Information Retrieval`, `Query Optimization` | [Notebook](notebook/cross_encoder_reranking.ipynb) |
-| **Training and Utilizing Embedding Adapters** | Add an adapter layer to reshape embeddings, improving retrieval by emphasizing elements that are relevant to your application. | `Embedding Adapters`, `Retrieval`, `Embedding Layers`, `Machine Learning` | [Notebook](notebook/embedding_adapters.ipynb) |
+| **Overview of Embeddings-Based Retrieval with ChromaDB** | Dive into the fundamentals of embeddings-based retrieval using ChromaDB. Explore how to store, query, and manage embeddings effectively, and build a simple Retrieval-Augmented Generation (RAG) system. | `ChromaDB`, `Embeddings`, `Retrieval-Augmented Generation (RAG)`, `OpenAI` | [Notebook](embeddings_based_retrieval_chromadb.ipynb) |
+| **Pitfalls of Retrieval: When Simple Vector Search Fails** | Explore common challenges and limitations of simple vector search in embeddings-based retrieval. Understand scenarios where vector search may fail. | `Vector Search`, `Embeddings`, `Retrieval Systems`, `ChromaDB` | [Notebook](pitfalls_of_retrieval_vector_search_fails.ipynb) |
+| **Query Expansion** | Enhance information retrieval by expanding user queries with related concepts and keywords using an LLM. Employ an LLM to suggest possible answers to queries and incorporate them into the query for improved retrieval performance. | `LLM`, `Information Retrieval`, `Query Expansion`, `Keyword Enrichment` | [Notebook](query_expansion_llm.ipynb) |
+| **Cross-Encoder Reranking** | Improve retrieval results by reranking them using a cross-encoder to select the most relevant results based on the query. | `Cross-Encoder`, `Reranking`, `Information Retrieval`, `Query Optimization` | [Notebook](cross_encoder_reranking.ipynb) |
+| **Training and Utilizing Embedding Adapters** | Add an adapter layer to reshape embeddings, improving retrieval by emphasizing elements that are relevant to the application. | `Embedding Adapters`, `Retrieval`, `LLM` | [Notebook](embedding_adapters.ipynb) |
 
 These strategies ensure more precise and effective retrieval, unlocking the full potential of Chroma for IR and RAG tasks! 🚀✨
